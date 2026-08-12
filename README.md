@@ -953,16 +953,6 @@ intelligent-traffic-management-system/
 
 ---
 
-# 👥 Team Responsibilities
-
-| Team Member            | Module                                            | Main Responsibility                            |
-| ---------------------- | ------------------------------------------------- | ---------------------------------------------- |
-| 👤 **Member 1**        | `green-corridor/`                                 | Emergency vehicles & dynamic green corridor    |
-| 👤 **Member 2**        | `simulation/` + `rl/`                             | CityFlow & PPO model training                  |
-| 👤 **Member 3**        | `penalty-system/`                                 | YOLO, violations, plate detection & OCR        |
-| 👤 **Member 4 / Lead** | `backend/` + `dashboard/` + `database/` + `docs/` | Coordination, APIs, cloud & system integration |
-
----
 
 # 🔗 Module Integration
 
