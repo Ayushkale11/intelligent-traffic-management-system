@@ -1,0 +1,80 @@
+<routes>
+
+    <!-- Vehicle type -->
+    <vType id="car"
+           accel="2.0"
+           decel="4.5"
+           sigma="0.5"
+           length="5.0"
+           minGap="2.5"
+           maxSpeed="13.89"/>
+
+    <!-- North -->
+    <route id="N_to_S" edges="N_J J_S"/>
+    <route id="N_to_E" edges="N_J J_E"/>
+    <route id="N_to_W" edges="N_J J_W"/>
+
+    <!-- South -->
+    <route id="S_to_N" edges="S_J J_N"/>
+    <route id="S_to_E" edges="S_J J_E"/>
+    <route id="S_to_W" edges="S_J J_W"/>
+
+    <!-- East -->
+    <route id="E_to_W" edges="E_J J_W"/>
+    <route id="E_to_N" edges="E_J J_N"/>
+    <route id="E_to_S" edges="E_J J_S"/>
+
+    <!-- West -->
+    <route id="W_to_E" edges="W_J J_E"/>
+    <route id="W_to_N" edges="W_J J_N"/>
+    <route id="W_to_S" edges="W_J J_S"/>
+
+
+    <!-- ============================= -->
+    <!-- Traffic demand                -->
+    <!-- ============================= -->
+
+    <!-- North traffic -->
+    <flow id="N1" type="car" route="N_to_S"
+          begin="0" end="600" vehsPerHour="300"/>
+
+    <flow id="N2" type="car" route="N_to_E"
+          begin="0" end="600" vehsPerHour="200"/>
+
+    <flow id="N3" type="car" route="N_to_W"
+          begin="0" end="600" vehsPerHour="150"/>
+
+
+    <!-- South traffic -->
+    <flow id="S1" type="car" route="S_to_N"
+          begin="0" end="600" vehsPerHour="300"/>
+
+    <flow id="S2" type="car" route="S_to_E"
+          begin="0" end="600" vehsPerHour="200"/>
+
+    <flow id="S3" type="car" route="S_to_W"
+          begin="0" end="600" vehsPerHour="150"/>
+
+
+    <!-- East traffic -->
+    <flow id="E1" type="car" route="E_to_W"
+          begin="0" end="600" vehsPerHour="300"/>
+
+    <flow id="E2" type="car" route="E_to_N"
+          begin="0" end="600" vehsPerHour="200"/>
+
+    <flow id="E3" type="car" route="E_to_S"
+          begin="0" end="600" vehsPerHour="150"/>
+
+
+    <!-- West traffic -->
+    <flow id="W1" type="car" route="W_to_E"
+          begin="0" end="600" vehsPerHour="300"/>
+
+    <flow id="W2" type="car" route="W_to_N"
+          begin="0" end="600" vehsPerHour="200"/>
+
+    <flow id="W3" type="car" route="W_to_S"
+          begin="0" end="600" vehsPerHour="150"/>
+
+</routes>
