@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+
+    <input>
+
+        <net-file value="v3.net.xml"/>
+
+        <route-files value="v3.rou.xml"/>
+
+    </input>
+
+
+    <time>
+
+        <begin value="0"/>
+
+        <end value="600"/>
+
+        <step-length value="1.0"/>
+
+    </time>
+
+
+    <processing>
+
+        <time-to-teleport value="-1"/>
+
+        <collision.action value="warn"/>
+
+    </processing>
+
+
+    <report>
+
+        <verbose value="false"/>
+
+        <duration-log.disable value="false"/>
+
+    </report>
+
+
+    <gui_only>
+
+        <gui-settings-file value="v3.settings.xml"/>
+
+    </gui_only>
+
+</configuration>

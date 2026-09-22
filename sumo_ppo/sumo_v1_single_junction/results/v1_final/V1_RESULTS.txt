@@ -1,0 +1,49 @@
+SUMO V1 PPO RESULTS
+===================
+
+Simulator:
+SUMO 1.18.0
+
+Network:
+Single 4-way junction
+
+Simulation:
+600 seconds
+
+Traffic:
+Fixed V1 route demand
+
+FIXED-TIME BASELINE
+-------------------
+Average waiting vehicles : 12.52
+Total waiting time       : 7510.00 vehicle-sec
+Average queue length     : 12.52
+Average vehicles         : 35.08
+Throughput               : 375
+Final vehicles           : 39
+Final waiting vehicles   : 13
+Maximum queue            : 26
+Maximum vehicles         : 47
+Signal phase changes     : 26
+
+PPO V1
+------
+Average reward           : -62.60
+Average waiting          : 6.93
+Average queue            : 6.93
+Average vehicles         : 29.34
+Throughput               : 384
+Final vehicles           : 34
+Final waiting vehicles   : 9
+Signal switches          : 40
+
+PPO VS FIXED-TIME
+-----------------
+Waiting change           : +44.62%
+Throughput change        : +2.40%
+Final vehicles change    : -12.82%
+
+NOTE:
+PPO was evaluated on the same V1 traffic demand as the
+fixed-time baseline. Generalization to unseen traffic
+conditions has not yet been established.

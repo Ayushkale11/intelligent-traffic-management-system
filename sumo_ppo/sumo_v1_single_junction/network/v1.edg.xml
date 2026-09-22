@@ -1,0 +1,27 @@
+<edges>
+
+    <!-- North -->
+    <edge id="N_J" from="N" to="J"
+          numLanes="2" speed="13.89"/>
+    <edge id="J_N" from="J" to="N"
+          numLanes="2" speed="13.89"/>
+
+    <!-- South -->
+    <edge id="S_J" from="S" to="J"
+          numLanes="2" speed="13.89"/>
+    <edge id="J_S" from="J" to="S"
+          numLanes="2" speed="13.89"/>
+
+    <!-- East -->
+    <edge id="E_J" from="E" to="J"
+          numLanes="2" speed="13.89"/>
+    <edge id="J_E" from="J" to="E"
+          numLanes="2" speed="13.89"/>
+
+    <!-- West -->
+    <edge id="W_J" from="W" to="J"
+          numLanes="2" speed="13.89"/>
+    <edge id="J_W" from="J" to="W"
+          numLanes="2" speed="13.89"/>
+
+</edges>
