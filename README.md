@@ -1236,4 +1236,15 @@ Developed as a collaborative project focused on applying **Artificial Intelligen
 
 ### 🚑 Saving Time When Every Second Matters.
 
+## Author
+
+### Ayush Kale
+
+Computer Engineering Student passionate about AI, Computer Vision, and Machine Learning.
+
+[![GitHub](https://img.shields.io/badge/GitHub-Imposter069-black?logo=github)](https://github.com/Imposter069)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ayush%20Kale-blue?logo=linkedin)](https://www.linkedin.com/in/ayush-kale-905882335/)
+[![Email](https://img.shields.io/badge/Email-Contact-red?logo=gmail)](mailto:kaleayush2006@gmail.com)
+
+
 </p>
